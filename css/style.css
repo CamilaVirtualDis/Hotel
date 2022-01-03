@@ -1,0 +1,1107 @@
+.no-js img.lazyload {
+    display: none;
+}
+
+figure.wp-block-image img.lazyloading {
+    min-width: 150px;
+}
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+/* --------------------- CSS BASICO ------------------ */
+
+
+        h1,
+        p {
+            font-family: 'heron';
+            font-weight: 300;
+        }
+
+        .home .oxy-repeater-pages-wrap {
+            display: none;
+        }
+
+        #_nav_menu-8-164 .menu-item a,
+        #_nav_menu-6-1425 .menu-item a {
+            border-bottom: 3px solid rgba(0, 0, 0, 0)
+        }
+
+        #_nav_menu-8-164 .menu-item:hover a,
+        #_nav_menu-6-1425 .menu-item:hover a {
+            border-bottom: 3px solid rgba(0, 0, 0, 1)
+        }
+
+        .oxy-sticky-header-active img {
+            max-width: 60%;
+            margin-bottom: 0 !important;
+        }
+
+        .oxy-sticky-header-active .oxy-header-row {
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+
+        .oxy-nav-menu-open .menu-item a {
+            font-size: 18px !important;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .oxy-nav-menu-open .hide-me-mobile>a {
+            display: none !important
+        }
+
+        #imageGallery li img,
+        #imageGallery-two li img {
+            width: 100% !important;
+        }
+
+
+        @media screen and (max-width:768px) {
+
+            h2,
+            .title-2 {
+                font-family: 'heron';
+                font-size: 25px;
+                color: #000000;
+                text-align: left;
+                font-weight: 500;
+            }
+
+            #headline-8-143 {
+                font-size: 40px !important;
+            }
+
+            #code_block-24-164 img {
+                max-width: 300px;
+            }
+        }
+
+        #imageGallery,
+        #imageGallery-two {
+            max-height: 600px;
+        }
+
+        #text1,
+        #text2,
+        #text3 {
+            display: flex;
+        }
+
+        .wp-image-1345,
+        .wp-image-1348,
+        .wp-image-1351 {
+            margin-right: 10px;
+        }
+
+        #span-106-178>span {
+            color: #686868;
+        }
+
+        /* From pàg. contacte */
+        #gform_submit_button_1,
+        #gform_submit_button_2,
+        #gform_submit_button_3,
+        #gform_submit_button_4 {
+            background-color: #00abf4;
+            border: none;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+
+        #input_1_1,
+        #input_1_2,
+        #input_1_3,
+        #input_2_1,
+        #input_2_2,
+        #input_2_3,
+        #input_3_1,
+        #input_3_2,
+        #input_3_3,
+        #input_4_1,
+        #input_4_2,
+        #input_4_3 {
+            width: 100%;
+        }
+
+        @media screen and (max-width:1120px) {
+            li#menu-item-1403>a {
+                display: none;
+            }
+        }
+
+        .equipment {
+            color: #636363;
+            text-transform: uppercase;
+        }
+
+        .list-car {
+            list-style: none;
+            margin-left: -15px;
+        }
+
+        .list-car li:before {
+            content: '';
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            background-size: 15px;
+            background-image: url('/wp-content/uploads/2020/06/1024px-Check_font_awesome.png');
+            margin-right: 5px;
+
+        }
+
+        #imageGallery li img,
+        #imageGallery-two li img {
+            width: auto !important;
+            max-width: 1080px;
+            height: 700px;
+        }
+
+        @media screen and (max-width:500px) {
+
+            #imageGallery li img,
+            #imageGallery-two li img {
+                width: 250px !important;
+                max-width: auto;
+                height: auto;
+            }
+
+        }
+
+        .lSAction {
+            display: none;
+        }
+
+        .unslider-arrow {
+            height: 50px !important;
+            width: 50px !important;
+            background-color: rgba(0, 0, 0, 1) !important;
+            opacity: 0.7 !important;
+        }
+
+        .unslider-arrow:hover {
+            opacity: 1 !important;
+        }
+
+        .final {
+            margin-bottom: 20px !important;
+        }
+
+        @media screen and (max-width:400px) {
+            .code_block-24-164 img {
+                width: 200px !important;
+                height: 50px !important;
+            }
+        }
+
+        /* ap i hotels slider*/
+
+        .lSSlideOuter .lSSlideWrapper #imageGallery-two,
+        .lSSlideOuter .lSSlideWrapper #imageGallery {
+            text-align: center;
+        }
+
+        .lSAction>.lSPrev {
+            background-position: 0 0;
+            left: 15px;
+            background-color: black;
+            background-size: contain;
+            opacity: 0.5;
+            background-image: url(/wp-content/uploads/2019/08/icon_hotel-Port-Selva-arrow.png);
+        }
+
+        .lSAction>.lSNext {
+            background-position: 0 0;
+            right: 15px;
+            background-color: black;
+            opacity: 0.5;
+            background-size: contain;
+            background-image: url(/wp-content/uploads/2019/08/icon_hotel-Port-Selva-arrow-02.png);
+        }
+
+        #section-62-189 img {
+            max-width: 1080px;
+        }
+
+        /* menu hotels restaurants espanyol*/
+        li#menu-item-1902 a,
+        li#menu-item-1900 a,
+        li#menu-item-1899 a,
+        li#menu-item-1898 a,
+        li#menu-item-1901 {
+            margin-left: 100px;
+        }
+
+        li#menu-item-205 a,
+        li#menu-item-315 a,
+        li#menu-item-314 a,
+        li#menu-item-316 a {
+            padding-left: 135px !important;
+        }
+
+        li#menu-item-2390 a,
+        li#menu-item-2391 a {
+            padding-left: 95px !important;
+        }
+
+        li#menu-item-2394 a,
+        li#menu-item-2395 a {
+            margin-left: 70px;
+        }
+
+        li#menu-item-1902,
+        li#menu-item-205 {
+            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1900,
+        li#menu-item-315 {
+            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 5% 95%;
+        }
+
+        li#menu-item-1899,
+        li#menu-item-314 {
+            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1898,
+        li#menu-item-316 {
+            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-2394,
+        li#menu-item-2390 {
+            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 10% 90%;
+        }
+
+        li#menu-item-2395,
+        li#menu-item-2391 {
+            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        /* menu hotels restaurants angles*/
+        li#menu-item-1921 a,
+        li#menu-item-1920 a,
+        li#menu-item-1922 a,
+        li#menu-item-1923 a,
+        li#menu-item-1919 {
+            margin-left: 100px;
+        }
+
+        li#menu-item-1214 a,
+        li#menu-item-1215 a,
+        li#menu-item-1216 a,
+        li#menu-item-1217 a {
+            padding-left: 135px !important;
+        }
+
+        li#menu-item-2386 a,
+        li#menu-item-2387 a {
+            padding-left: 95px !important;
+        }
+
+        li#menu-item-2398 a,
+        li#menu-item-2399 a {
+            margin-left: 70px;
+        }
+
+        li#menu-item-1215,
+        li#menu-item-1921 {
+            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1214,
+        li#menu-item-1920 {
+            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 5% 95%;
+        }
+
+        li#menu-item-1217,
+        li#menu-item-1923 {
+            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1216,
+        li#menu-item-1922 {
+            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-2394,
+        li#menu-item-2398 {
+            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 10% 90%;
+        }
+
+        li#menu-item-2395,
+        li#menu-item-2399 {
+            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        /* menu hotels restaurants francès*/
+        li#menu-item-1909 a,
+        li#menu-item-1908 a,
+        li#menu-item-1911 a,
+        li#menu-item-1912 a,
+        li#menu-item-1910 a {
+            margin-left: 100px;
+        }
+
+        li#menu-item-1254 a,
+        li#menu-item-1255 a,
+        li#menu-item-1256 a,
+        li#menu-item-1253 a {
+            padding-left: 135px !important;
+        }
+
+        li#menu-item-2392 a,
+        li#menu-item-2393 a {
+            padding-left: 95px !important;
+        }
+
+        li#menu-item-2400 a,
+        li#menu-item-2401 a {
+            margin-left: 70px;
+        }
+
+        li#menu-item-1254,
+        li#menu-item-1910 {
+            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1253,
+        li#menu-item-1909 {
+            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 5% 95%;
+        }
+
+        li#menu-item-1256,
+        li#menu-item-1912 {
+            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1255,
+        li#menu-item-1911 {
+            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-2400,
+        li#menu-item-2392 {
+            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 10% 90%;
+        }
+
+        li#menu-item-2401,
+        li#menu-item-2393 {
+            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        /* menu hotels restaurants català*/
+        li#menu-item-1916 a,
+        li#menu-item-1915 a,
+        li#menu-item-1918 a,
+        li#menu-item-1917 a,
+        li#menu-item-1914 a {
+            margin-left: 100px;
+        }
+
+        li#menu-item-1405 a,
+        li#menu-item-1404 a,
+        li#menu-item-1406 a,
+        li#menu-item-1407 a {
+            padding-left: 135px !important;
+        }
+
+        li#menu-item-2389 a,
+        li#menu-item-2388 a {
+            padding-left: 95px !important;
+        }
+
+        li#menu-item-2396 a,
+        li#menu-item-2397 a {
+            margin-left: 70px;
+        }
+
+        li#menu-item-1405,
+        li#menu-item-1916 {
+            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1404,
+        li#menu-item-1915 {
+            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 5% 95%;
+        }
+
+        li#menu-item-1407,
+        li#menu-item-1918 {
+            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-1406,
+        li#menu-item-1917 {
+            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        li#menu-item-2389,
+        li#menu-item-2386,
+        li#menu-item-2397 {
+            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 10% 90%;
+        }
+
+        li#menu-item-2388,
+        li#menu-item-2387,
+        li#menu-item-2396 {
+            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        @media screen and (max-width:1120px) {
+
+            li#menu-item-1405,
+            li#menu-item-1916,
+            li#menu-item-1404,
+            li#menu-item-1915,
+            li#menu-item-1407,
+            li#menu-item-1918,
+            li#menu-item-1406,
+            li#menu-item-1917,
+            li#menu-item-2389,
+            li#menu-item-2397,
+            li#menu-item-2388,
+            li#menu-item-2396,
+            li#menu-item-1254,
+            li#menu-item-1910,
+            li#menu-item-1253,
+            li#menu-item-1909,
+            li#menu-item-1256,
+            li#menu-item-1912,
+            li#menu-item-1255,
+            li#menu-item-1911,
+            li#menu-item-2400,
+            li#menu-item-2392,
+            li#menu-item-2401,
+            li#menu-item-1215,
+            li#menu-item-2393,
+            li#menu-item-1214,
+            li#menu-item-1920,
+            li#menu-item-1216,
+            li#menu-item-1923,
+            li#menu-item-1217,
+            li#menu-item-1922,
+            li#menu-item-2394,
+            li#menu-item-2398,
+            li#menu-item-2395,
+            li#menu-item-2399,
+            li#menu-item-1902,
+            li#menu-item-205,
+            li#menu-item-1900,
+            li#menu-item-315,
+            li#menu-item-1899,
+            li#menu-item-314,
+            li#menu-item-1898,
+            li#menu-item-316,
+            li#menu-item-2394,
+            li#menu-item-2390,
+            li#menu-item-2395,
+            li#menu-item-2391,
+            li#menu-item-2386,
+            li#menu-item-2387 {
+                background: none !important;
+            }
+
+            li#menu-item-1405 a,
+            li#menu-item-1916 a,
+            li#menu-item-1404 a,
+            li#menu-item-1915 a,
+            li#menu-item-1407 a,
+            li#menu-item-1918 a,
+            li#menu-item-1406 a,
+            li#menu-item-1917 a,
+            li#menu-item-2389 a,
+            li#menu-item-2397 a,
+            li#menu-item-2388 a,
+            li#menu-item-2396 a,
+            li#menu-item-1254 a,
+            li#menu-item-1910 a,
+            li#menu-item-1253 a,
+            li#menu-item-1909 a,
+            li#menu-item-1256 a,
+            li#menu-item-1912 a,
+            li#menu-item-1255 a,
+            li#menu-item-1911 a,
+            li#menu-item-2400 a,
+            li#menu-item-2392 a,
+            li#menu-item-2401 a,
+            li#menu-item-2393 a,
+            li#menu-item-1214 a,
+            li#menu-item-1920 a,
+            li#menu-item-1216 a,
+            li#menu-item-1923 a,
+            li#menu-item-1217 a,
+            li#menu-item-1922 a,
+            li#menu-item-1215 a,
+            li#menu-item-2394 a,
+            li#menu-item-2398 a,
+            li#menu-item-2395 a,
+            li#menu-item-2399 a,
+            li#menu-item-1902 a,
+            li#menu-item-205 a,
+            li#menu-item-1900 a,
+            li#menu-item-315 a,
+            li#menu-item-1899 a,
+            li#menu-item-314 a,
+            li#menu-item-1898 a,
+            li#menu-item-316 a,
+            li#menu-item-2394 a,
+            li#menu-item-2390 a,
+            li#menu-item-2395 a,
+            li#menu-item-2391 a,
+            li#menu-item-2386 a,
+            li#menu-item-2387 a {
+                margin-left: 0px !important;
+                padding-left: 0px !important;
+            }
+
+        }
+
+        @media screen and (max-width:950px) {
+
+            #text1,
+            #text2,
+            #text3 {
+                display: block;
+            }
+
+            #text1 img,
+            #text2 img,
+            #text3 img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @media screen and (max-width:450px) {
+            #code_block-45-1425>img:lang(ca) {
+                width: 300px !important;
+            }
+        }
+
+        div#code_block-46-2366 button,
+        div#code_block-44-2249 button,
+        div#code_block-45-2365 button,
+        div#code_block-45-2367 button {
+            background-color: #0074db;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        div#code_block-46-2366 button:hover,
+        div#code_block-44-2249 button:hover,
+        div#code_block-45-2365 button:hover,
+        div#code_block-45-2367 button:hover {
+            background-color: #00abf4;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /*Imatge slider apartaments*/
+        @media screen and (max-width:1600px) and (min-width:770px) {
+
+            #div_block-489-6,
+            #div_block-494-6,
+            #div_block-498-6,
+            #div_block-502-6,
+            #div_block-506-6,
+            #div_block-488-1265,
+            #div_block-492-1265,
+            #div_block-492-1265,
+            #div_block-504-1265,
+            #div_block-508-1265,
+            #div_block-488-1200,
+            #div_block-492-1200,
+            #div_block-496-1200,
+            #div_block-500-1200,
+            #div_block-506-1200,
+            #div_block-490-1387,
+            #div_block-495-1387,
+            #div_block-499-1387,
+            #div_block-503-1387,
+            #div_block-507-1387 {
+                height: 600px !important;
+            }
+        }
+
+        @media screen and (max-width:1500px) and (min-width:770px) {
+
+            #div_block-489-6,
+            #div_block-494-6,
+            #div_block-498-6,
+            #div_block-502-6,
+            #div_block-506-6,
+            #div_block-488-1265,
+            #div_block-492-1265,
+            #div_block-492-1265,
+            #div_block-504-1265,
+            #div_block-508-1265,
+            #div_block-488-1200,
+            #div_block-492-1200,
+            #div_block-496-1200,
+            #div_block-500-1200,
+            #div_block-506-1200,
+            #div_block-490-1387,
+            #div_block-495-1387,
+            #div_block-499-1387,
+            #div_block-503-1387,
+            #div_block-507-1387 {
+                height: 560px !important;
+            }
+        }
+
+        @media screen and (max-width:1400px) and (min-width:770px) {
+
+            #div_block-489-6,
+            #div_block-494-6,
+            #div_block-498-6,
+            #div_block-502-6,
+            #div_block-506-6,
+            #div_block-488-1265,
+            #div_block-492-1265,
+            #div_block-492-1265,
+            #div_block-504-1265,
+            #div_block-508-1265,
+            #div_block-488-1200,
+            #div_block-492-1200,
+            #div_block-496-1200,
+            #div_block-500-1200,
+            #div_block-506-1200,
+            #div_block-490-1387,
+            #div_block-495-1387,
+            #div_block-499-1387,
+            #div_block-503-1387,
+            #div_block-507-1387 {
+                height: 510px !important;
+            }
+        }
+
+        @media screen and (max-width:1300px) and (min-width:770px) {
+
+            #div_block-489-6,
+            #div_block-494-6,
+            #div_block-498-6,
+            #div_block-502-6,
+            #div_block-506-6,
+            #div_block-488-1265,
+            #div_block-492-1265,
+            #div_block-492-1265,
+            #div_block-504-1265,
+            #div_block-508-1265,
+            #div_block-488-1200,
+            #div_block-492-1200,
+            #div_block-496-1200,
+            #div_block-500-1200,
+            #div_block-506-1200,
+            #div_block-490-1387,
+            #div_block-495-1387,
+            #div_block-499-1387,
+            #div_block-503-1387,
+            #div_block-507-1387 {
+                height: 475px !important;
+            }
+        }
+
+        @media screen and (max-width:1200px) and (min-width:770px) {
+
+            #div_block-489-6,
+            #div_block-494-6,
+            #div_block-498-6,
+            #div_block-502-6,
+            #div_block-506-6,
+            #div_block-488-1265,
+            #div_block-492-1265,
+            #div_block-492-1265,
+            #div_block-504-1265,
+            #div_block-508-1265,
+            #div_block-488-1200,
+            #div_block-492-1200,
+            #div_block-496-1200,
+            #div_block-500-1200,
+            #div_block-506-1200,
+            #div_block-490-1387,
+            #div_block-495-1387,
+            #div_block-499-1387,
+            #div_block-503-1387,
+            #div_block-507-1387 {
+                height: 435px !important;
+            }
+        }
+
+        /* Fi imatge slider apartaments */
+        /*@media screen and (max-width:450px) {
+.title-2 .cajablanca.azul{
+	line-height: 0.97!important;
+  margin-bottom: 0px!important;
+  margin-top:0px;
+}
+}*/
+
+        /*@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0)
+{ 
+	.safari10 .ui_bubble_rating.bubble_35{
+			width:25px;
+		}	
+}*/
+
+        /*@media screen and (max-width:1200px) {
+@media not all and (min-resolution:.001dpcm) { 
+     @supports (-webkit-appearance:none) {
+.cdsComponent.cdsRating .ui_bubble_rating.bubble_45:after,
+			 .cdsComponent.cdsRating .ui_bubble_rating.bubble_35:after , .cdsComponent.cdsRating .ui_bubble_rating.bubble_40:after {
+white-space: pre;
+content: "        \e00b\e00b\e00b\e00b\e00c"!important;
+font-size: 17.5px!important;
+}
+		     }
+}
+}*/
+
+
+        /*@media screen and (max-width:700px) {
+	div#code_block-24-164 {
+    max-width: 270px!important;
+}
+
+#code_block-24-164 .cdsComponent.cdsLocName a {
+    font-size: 14px!important;
+}
+
+#code_block-24-164 img.ls-is-cached.lazyloaded {
+    max-width: 265px!important;
+}
+}*/
+    
+
+img {
+    margin-bottom: 10px;
+}
+
+.cdsComponent.logo {
+    display: none;
+}
+
+.cdsROW.white.border.narrow {
+    background-color: #202b2b;
+    max-width: 100% !important;
+}
+
+.cdsROW.narrow.border {
+    padding: 6px 11px 11px;
+}
+
+
+.cdsComponent.cdsLocName a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.cdsROW.border {
+    border: none;
+}
+
+.cdsROWContainer {
+    background-color: #202b2b;
+}
+
+.cdsROW .logo img {
+    display: none;
+}
+
+.cdsROW.wide .logo {
+    border: none;
+    padding: 0;
+}
+
+.cdsComponent.cdsLocName {
+    width: 100% !important;
+}
+
+.cdsROW a,
+.cdsROW a:hover {
+    text-decoration: none;
+}
+
+
+.cdsROW .cdsRating .ui_bubble_rating {
+    font-size: 12px;
+    margin-bottom: 1px;
+    padding-right: 10px;
+}
+
+.cdsROW.narrow {
+    width: 100%;
+    text-align: left;
+}
+
+.cdsROW.narrow .cdsRating {
+    line-height: 100%;
+    display: inline-flex;
+}
+
+.ui_bubble_rating.bubble_45:before {
+    white-space: pre;
+    content: "4.5   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_45:after {
+    white-space: pre;
+    content: "4.5   \e00b\e00b\e00b\e00b\e00c" !important;
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_50:before {
+    white-space: pre;
+    content: "5.0   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_50:after {
+    white-space: pre;
+    content: "5.0   \e00b\e00b\e00b\e00b\e00b" !important;
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_40:before {
+    white-space: pre;
+    content: "4.0   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_40:after {
+    white-space: pre;
+    content: "4.0   \e00b\e00b\e00b\e00b\e00d" !important;
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_35:before {
+    white-space: pre;
+    content: "3.5   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_35:after {
+    white-space: pre;
+    content: "3.5   \e00b\e00b\e00b\e00c\e00d" !important;
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_30:before {
+    white-space: pre;
+    content: "3.0   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_30:after {
+    white-space: pre;
+    content: "3.0   \e00b\e00b\e00b\e00d\e00d" !important;
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_25:before {
+    white-space: pre;
+    content: "2.5   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_25:after {
+    white-space: pre;
+    content: "2.5   \e00b\e00b\e00c\e00d\e00d" !important;
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_20:before {
+    white-space: pre;
+    content: "2.0   \e00a\e00a\e00a\e00a\e00a";
+    font-size: 17px;
+}
+
+.ui_bubble_rating.bubble_20:after {
+    white-space: pre;
+    content: "2.0   \e00b\e00b\e00d\e00d\e00d" !important;
+    font-size: 17px;
+}
+
+.cdsROW .cdsRating span {
+    vertical-align: baseline;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .ui_bubble_rating.bubble_45:before {
+        white-space: pre;
+        content: "4.5   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_45:after {
+        white-space: pre;
+        content: "4.5   \e00b\e00b\e00b\e00b\e00c" !important;
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_50:before {
+        white-space: pre;
+        content: "5.0   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_50:after {
+        white-space: pre;
+        content: "5.0   \e00b\e00b\e00b\e00b\e00b" !important;
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_40:before {
+        white-space: pre;
+        content: "4.0   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_40:after {
+        white-space: pre;
+        content: "4.0   \e00b\e00b\e00b\e00b\e00d" !important;
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_35:before {
+        white-space: pre;
+        content: "3.5   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_35:after {
+        white-space: pre;
+        content: "3.5   \e00b\e00b\e00b\e00c\e00d" !important;
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_30:before {
+        white-space: pre;
+        content: "3.0   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_30:after {
+        white-space: pre;
+        content: "3.0   \e00b\e00b\e00b\e00d\e00d" !important;
+        font-size: 17.6px;
+    }
+
+    .ui_bubble_rating.bubble_25:before {
+        white-space: pre;
+        content: "2.5   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_25:after {
+        white-space: pre;
+        content: "2.5.   \e00b\e00b\e00c\e00d\e00d" !important;
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_20:before {
+        white-space: pre;
+        content: "2.0   \e00a\e00a\e00a\e00a\e00a";
+        font-size: 18px;
+    }
+
+    .ui_bubble_rating.bubble_20:after {
+        white-space: pre;
+        content: "2.0  \e00b\e00b\e00d\e00d\e00d" !important;
+        font-size: 18px;
+    }
+}
+
+
+
+/*@media screen and (max-width:1200px) {
+@media not all and (min-resolution:.001dpcm) { 
+@supports (-webkit-appearance:none) {
+.cdsComponent.cdsRating .ui_bubble_rating.bubble_45:after, .cdsComponent.cdsRating .ui_bubble_rating.bubble_35:after , .cdsComponent.cdsRating .ui_bubble_rating.bubble_40:after {
+white-space: pre;
+content: "2.0   \e00b\e00b\e00b\e00b\e00c"!important;
+font-size: 18px!important;
+}
+.cdsComponent.cdsRating .ui_bubble_rating.bubble_45:before, .cdsComponent.cdsRating .ui_bubble_rating.bubble_35:before , .cdsComponent.cdsRating .ui_bubble_rating.bubble_40:before {
+white-space: pre;
+content: "2.0   \e00a\e00a\e00a\e00a\e00a";
+font-size: 18px;
+}
+     }
+}
+}*/
+
