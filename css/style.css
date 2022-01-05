@@ -1455,3 +1455,104 @@ textarea {
     z-index: -1;
     opacity: 0.5;
 }
+
+/* zona de precios */
+
+body:not([id^="migrate"]) .row--layout-pricing-1a .column {
+    padding: 32px;
+}
+.row--layout-pricing-1a.row--style-light .column, #migrated-site .row--layout-pricing-1a.row--style-light .column {
+    border-color: #f5e9dd;
+}
+.row--layout-pricing-1a .column, #migrated-site .row--layout-pricing-1a .column {
+    -webkit-align-self: normal;
+    -moz-align-self: normal;
+    -ms-align-self: normal;
+    -ms-flex-item-align: normal;
+    -ms-flex-align: normal;
+    align-self: normal;
+    border: 2px solid;
+    border-radius: 6px;
+    box-shadow: 0 2px 0px rgb(0 0 0 / 2%);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: column;
+    -webkit-box-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.responsivecolumns .column {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    min-height: 30px;
+    position: relative;
+}
+.columns-three-left, .columns-three-middle, .columns-three-right {
+    -webkit-flex-basis: 33.33%;
+    -moz-flex-basis: 33.33%;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+.widget:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.widget[data-name="content"]+[data-name="button"], .widget[data-name="content"]+[data-name="gallery"], .widget[data-name="content"]+[data-name="image"], .widget[data-name="content"]+[data-name="slideshow"], .widget[data-name="content"]+[data-name="map"], .widget[data-name="content"]+[data-name="contactform"], .widget[data-name="content"]+[data-name="signupform"], .widget[data-name="content"]+[data-name="tweet"], .widget[data-name="content"]+[data-name="dropbox"], .widget[data-name="contentgroup"]+[data-name="button"], .widget[data-name="contentgroup"]+[data-name="gallery"], .widget[data-name="contentgroup"]+[data-name="image"], .widget[data-name="contentgroup"]+[data-name="slideshow"], .widget[data-name="contentgroup"]+[data-name="map"], .widget[data-name="contentgroup"]+[data-name="contactform"], .widget[data-name="contentgroup"]+[data-name="signupform"], .widget[data-name="contentgroup"]+[data-name="tweet"], .widget[data-name="contentgroup"]+[data-name="dropbox"] {
+    margin-top: 20px;
+}
+
+.widget+.widget {
+    margin-top: 16px;
+}
+.widget {
+    position: relative;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+#precios {
+    display:flex;
+    /* background-color: blue; */
+justify-content: space-evenly;
+padding-top:0;
+gap: 20px;
+
+}
+
+ul li {
+    list-style-type:none;
+}
+
+#precios > * {
+    border: 2px solid #a0a0a080;
+    padding: 3%;
+   
+    
+}
+
+#precios > * > *{
+    display:flex;
+    justify-content: left;
+}
+.rich_text-99-6 {
+    color: #0d6efd;
+    font-weight:700;
+}
+#precios > * > * span {
+    display:block;
+    text-align: left !important;
+}
