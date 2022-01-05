@@ -1105,3 +1105,355 @@ font-size: 18px;
 }
 }*/
 
+.form-group form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group label {
+    flex: none;
+    display: block;
+    width: 125px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.form-group label.right-inline {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.form-group .input-control {
+    flex: 1 1 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 4px;
+    margin-top: -4px;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    min-width: 100px
+}
+
+.form-group form div {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-group form div select,
+.form-group form div input {
+
+    padding: 18px 10px;
+    height: 100%;
+    -webkit-appearance: none;
+    border-radius: 0;
+    background-color: white;
+    border: 1px rgb(193, 193, 193) solid;
+
+
+}
+
+.form-group form div select {
+    padding: 18px 30px 18px 10px;
+}
+
+.form-group form div input[type="submit"] {
+    padding: 18px 30px;
+    background-color: #00b6ff;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+.form-group form div i {
+    position: absolute;
+    right: 10px;
+    color: #00b6ff;
+    pointer-events: none;
+}
+
+@media (max-width: 992px) {
+
+    .form-group form {
+        flex-direction: column;
+    }
+
+    .form-group form div select,
+    .form-group form div input {
+        width: 100%;
+    }
+}
+
+.oxy-posts-grid {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oxy-read-more {
+    bottom: 16px;
+    display: block;
+}
+
+.oxy-post-meta-item {
+    margin-left: 16px;
+    margin-top: 0;
+
+    font-size: 0.8em;
+    background: #fff;
+
+}
+
+.oxy-post {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    width: 450px;
+    height: 50%;
+    margin: 15px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oxy-post-image {
+    margin-bottom: 1em;
+    position: static;
+    width: 100%;
+    height: 60%;
+
+}
+
+.oxy-post-image-fixed-ratio {
+    padding-bottom: 85%;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.oxy-post-title {
+    font-size: 1.4em;
+    line-height: 1em;
+    padding-bottom: 16px;
+    height: 50px;
+    margin: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.oxy-post-title::after {
+    border-bottom-style: solid;
+}
+
+.oxy-post-meta-item::after {
+    margin-left: .5em;
+}
+
+.oxy-post-meta-item:last-child::after {
+    content: "";
+    display: none;
+}
+
+.oxy-post-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.oxy-post-content p {
+    margin: 0;
+}
+
+.final {
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1120px) {
+    .oxy-post-meta {
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 580px) {
+    .oxy-post {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        width: 400px;
+        height: 50%;
+        margin: 15px;
+        background: #fff;
+    }
+}
+
+@media (max-width:411px) {
+    .oxy-post {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        width: 100%;
+        height: 50%;
+        margin: 15px;
+        background: #fff;
+    }
+
+    .final {
+        margin-top: 15px;
+    }
+}
+
+/* Estilo info de contacto */
+
+.info-contacto {
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 10px;
+    box-sizing:border-box;
+}
+.info-contacto> * {
+    align-content: center;
+    font-weight:bold;
+}
+
+/* Estilo formulario */
+
+.contact-info-form {
+    position: relative;
+    display: block;
+    width:100%;
+   margin:auto;
+    border-radius: 7px;
+}
+.centro{
+    margin: auto;
+}
+.mensaje div:first-child
+{
+    outline: solid 28px white;
+    outline-offset: -10px;
+    border-radius: 0.1px;
+}
+.contact-info-form form {
+    position: relative;
+    display: block;
+    padding: 20px 20px 20px;
+    /* background: white;  */
+}
+
+
+.contact-info-form form .input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-info-form form .input-box input[type=text],
+.contact-info-form form .input-box input[type=email],
+.contact-info-form form .input-box textarea {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 55px;
+    border: 2px solid #A0A0A0;
+    padding: 0 20px;
+    color: #868298;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    transition: all 500ms ease;
+}
+
+
+
+
+.contact-info-form form .input-box textarea {
+    height: 205px;
+    padding: 15px 20px;
+}
+
+.contact-info-form form .input-box button {
+   
+    border-radius: 10px;
+    width: 157px;
+    height: 56px;
+}
+#botonFormulario{  
+    /* background-color:wheat; */
+    margin-top:50px;
+}
+#botonFormulario 
+{
+    display:flex;
+    justify-content: right;
+    /* left:81%; */
+}
+
+.contact-info-form form .input-box input[type=text]:focus {
+    border-color: #74BC1F;
+}
+
+.contact-info-form form .input-box input[type=email]:focus {
+    border-color: #74BC1F;
+}
+
+.contact-info-form form .input-box textarea:focus {
+    border-color: #74BC1F;
+}
+
+
+
+.call-us-area {
+    position: relative;
+    display: block;
+    padding-top: 100px;
+    z-index: 3;
+    padding-bottom: 6em;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+#consulta{
+    display:flex;
+    justify-content: center;
+}
+
+.call-us-area .call-us-bg {
+    /* background-position: center center; */
+}
+.call-us-area .call-us-bg {
+    /* display:flex; */
+    justify-content:center;
+    position: absolute;
+   top: 60%;
+    right: 0;
+    width: 100%;
+    height: 18em;
+    background-attachment: scroll;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+    opacity: 0.5;
+}
