@@ -52,6 +52,7 @@ max-width:100%;
 width:55px;height:55px;}
 .ct-inner-content {
 width:100%;
+max-height: fit-content;
 }
 .ct-slide {
 display:flex;
@@ -398,7 +399,7 @@ padding-right:px;
 padding-bottom:px;
 }
 
-.oxy-pro-menu .oxy-pro-menu-off-canvas-container, .oxy-pro-menu .oxy-pro-menu-open-container{
+/* .oxy-pro-menu .oxy-pro-menu-off-canvas-container, .oxy-pro-menu .oxy-pro-menu-open-container{
 background-color:;
 background-image:url();
 overlay-color:;
@@ -409,7 +410,7 @@ background-blend-mode:;
 background-size-width:px;
 background-size-height:px;
 background-position:px px;
-}
+} */
 
 .oxy-pro-menu .oxy-pro-menu-off-canvas-container .oxy-pro-menu-list .menu-item-has-children > a svg, .oxy-pro-menu .oxy-pro-menu-open-container .oxy-pro-menu-list .menu-item-has-children > a svg{
 font-size:24px;
@@ -460,12 +461,15 @@ padding-top: 75px;
 padding-right: 20px;
 padding-bottom: 75px;
 padding-left: 20px;
-}.ct-new-columns > .ct-div-block {
+}
+.ct-new-columns > .ct-div-block {
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
-}.oxy-header-container {
+}
+.oxy-header-container {
+
 padding-right: 20px;
 padding-left: 20px;
 }@media (max-width: 992px) {
@@ -836,4 +840,8 @@ flex-direction:unset;
  margin-right:30px;
 }
 }
-
+/*esta línea limita el tamaño vertical del carrousel*/
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
