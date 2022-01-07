@@ -1206,3 +1206,15 @@ background-color:#dce6f72c;
     padding-bottom:3%;
 
 }
+
+@media screen and (min-width: 800px){
+.header-style2-area.sticko {
+    background: rgba(14, 37, 58, 0.95);
+}
+}
+.header-style2-area {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
