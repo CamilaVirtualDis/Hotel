@@ -20,9 +20,8 @@ figure.wp-block-image img.lazyloading {
 /* --------------------- CSS BASICO ------------------ */
 
 
-        h1,
-        p {
-            font-family: 'heron';
+h1, h2, h3, h4, h5, h6 ,p {
+            font-family: 'heron', Arial, Helvetica, sans-serif;
             font-weight: 300;
         }
 
@@ -303,368 +302,7 @@ figure.wp-block-image img.lazyloading {
             background-repeat: no-repeat;
         }
 
-        /* menu hotels restaurants angles*/
-        li#menu-item-1921 a,
-        li#menu-item-1920 a,
-        li#menu-item-1922 a,
-        li#menu-item-1923 a,
-        li#menu-item-1919 {
-            margin-left: 100px;
-        }
-
-        li#menu-item-1214 a,
-        li#menu-item-1215 a,
-        li#menu-item-1216 a,
-        li#menu-item-1217 a {
-            padding-left: 135px !important;
-        }
-
-        li#menu-item-2386 a,
-        li#menu-item-2387 a {
-            padding-left: 95px !important;
-        }
-
-        li#menu-item-2398 a,
-        li#menu-item-2399 a {
-            margin-left: 70px;
-        }
-
-        li#menu-item-1215,
-        li#menu-item-1921 {
-            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1214,
-        li#menu-item-1920 {
-            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 5% 95%;
-        }
-
-        li#menu-item-1217,
-        li#menu-item-1923 {
-            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1216,
-        li#menu-item-1922 {
-            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-2394,
-        li#menu-item-2398 {
-            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 10% 90%;
-        }
-
-        li#menu-item-2395,
-        li#menu-item-2399 {
-            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        /* menu hotels restaurants francès*/
-        li#menu-item-1909 a,
-        li#menu-item-1908 a,
-        li#menu-item-1911 a,
-        li#menu-item-1912 a,
-        li#menu-item-1910 a {
-            margin-left: 100px;
-        }
-
-        li#menu-item-1254 a,
-        li#menu-item-1255 a,
-        li#menu-item-1256 a,
-        li#menu-item-1253 a {
-            padding-left: 135px !important;
-        }
-
-        li#menu-item-2392 a,
-        li#menu-item-2393 a {
-            padding-left: 95px !important;
-        }
-
-        li#menu-item-2400 a,
-        li#menu-item-2401 a {
-            margin-left: 70px;
-        }
-
-        li#menu-item-1254,
-        li#menu-item-1910 {
-            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1253,
-        li#menu-item-1909 {
-            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 5% 95%;
-        }
-
-        li#menu-item-1256,
-        li#menu-item-1912 {
-            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1255,
-        li#menu-item-1911 {
-            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-2400,
-        li#menu-item-2392 {
-            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 10% 90%;
-        }
-
-        li#menu-item-2401,
-        li#menu-item-2393 {
-            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        /* menu hotels restaurants català*/
-        li#menu-item-1916 a,
-        li#menu-item-1915 a,
-        li#menu-item-1918 a,
-        li#menu-item-1917 a,
-        li#menu-item-1914 a {
-            margin-left: 100px;
-        }
-
-        li#menu-item-1405 a,
-        li#menu-item-1404 a,
-        li#menu-item-1406 a,
-        li#menu-item-1407 a {
-            padding-left: 135px !important;
-        }
-
-        li#menu-item-2389 a,
-        li#menu-item-2388 a {
-            padding-left: 95px !important;
-        }
-
-        li#menu-item-2396 a,
-        li#menu-item-2397 a {
-            margin-left: 70px;
-        }
-
-        li#menu-item-1405,
-        li#menu-item-1916 {
-            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1404,
-        li#menu-item-1915 {
-            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 5% 95%;
-        }
-
-        li#menu-item-1407,
-        li#menu-item-1918 {
-            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1406,
-        li#menu-item-1917 {
-            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-2389,
-        li#menu-item-2386,
-        li#menu-item-2397 {
-            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 10% 90%;
-        }
-
-        li#menu-item-2388,
-        li#menu-item-2387,
-        li#menu-item-2396 {
-            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        @media screen and (max-width:1120px) {
-
-            li#menu-item-1405,
-            li#menu-item-1916,
-            li#menu-item-1404,
-            li#menu-item-1915,
-            li#menu-item-1407,
-            li#menu-item-1918,
-            li#menu-item-1406,
-            li#menu-item-1917,
-            li#menu-item-2389,
-            li#menu-item-2397,
-            li#menu-item-2388,
-            li#menu-item-2396,
-            li#menu-item-1254,
-            li#menu-item-1910,
-            li#menu-item-1253,
-            li#menu-item-1909,
-            li#menu-item-1256,
-            li#menu-item-1912,
-            li#menu-item-1255,
-            li#menu-item-1911,
-            li#menu-item-2400,
-            li#menu-item-2392,
-            li#menu-item-2401,
-            li#menu-item-1215,
-            li#menu-item-2393,
-            li#menu-item-1214,
-            li#menu-item-1920,
-            li#menu-item-1216,
-            li#menu-item-1923,
-            li#menu-item-1217,
-            li#menu-item-1922,
-            li#menu-item-2394,
-            li#menu-item-2398,
-            li#menu-item-2395,
-            li#menu-item-2399,
-            li#menu-item-1902,
-            li#menu-item-205,
-            li#menu-item-1900,
-            li#menu-item-315,
-            li#menu-item-1899,
-            li#menu-item-314,
-            li#menu-item-1898,
-            li#menu-item-316,
-            li#menu-item-2394,
-            li#menu-item-2390,
-            li#menu-item-2395,
-            li#menu-item-2391,
-            li#menu-item-2386,
-            li#menu-item-2387 {
-                background: none !important;
-            }
-
-            li#menu-item-1405 a,
-            li#menu-item-1916 a,
-            li#menu-item-1404 a,
-            li#menu-item-1915 a,
-            li#menu-item-1407 a,
-            li#menu-item-1918 a,
-            li#menu-item-1406 a,
-            li#menu-item-1917 a,
-            li#menu-item-2389 a,
-            li#menu-item-2397 a,
-            li#menu-item-2388 a,
-            li#menu-item-2396 a,
-            li#menu-item-1254 a,
-            li#menu-item-1910 a,
-            li#menu-item-1253 a,
-            li#menu-item-1909 a,
-            li#menu-item-1256 a,
-            li#menu-item-1912 a,
-            li#menu-item-1255 a,
-            li#menu-item-1911 a,
-            li#menu-item-2400 a,
-            li#menu-item-2392 a,
-            li#menu-item-2401 a,
-            li#menu-item-2393 a,
-            li#menu-item-1214 a,
-            li#menu-item-1920 a,
-            li#menu-item-1216 a,
-            li#menu-item-1923 a,
-            li#menu-item-1217 a,
-            li#menu-item-1922 a,
-            li#menu-item-1215 a,
-            li#menu-item-2394 a,
-            li#menu-item-2398 a,
-            li#menu-item-2395 a,
-            li#menu-item-2399 a,
-            li#menu-item-1902 a,
-            li#menu-item-205 a,
-            li#menu-item-1900 a,
-            li#menu-item-315 a,
-            li#menu-item-1899 a,
-            li#menu-item-314 a,
-            li#menu-item-1898 a,
-            li#menu-item-316 a,
-            li#menu-item-2394 a,
-            li#menu-item-2390 a,
-            li#menu-item-2395 a,
-            li#menu-item-2391 a,
-            li#menu-item-2386 a,
-            li#menu-item-2387 a {
-                margin-left: 0px !important;
-                padding-left: 0px !important;
-            }
-
-        }
-
-        @media screen and (max-width:950px) {
-
-            #text1,
-            #text2,
-            #text3 {
-                display: block;
-            }
-
-            #text1 img,
-            #text2 img,
-            #text3 img {
-                width: 100%;
-                height: auto;
-            }
-        }
-
-        @media screen and (max-width:450px) {
-            #code_block-45-1425>img:lang(ca) {
-                width: 300px !important;
-            }
-        }
-
-        div#code_block-46-2366 button,
-        div#code_block-44-2249 button,
-        div#code_block-45-2365 button,
-        div#code_block-45-2367 button {
-            background-color: #0074db;
-            border: none;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
-
-        div#code_block-46-2366 button:hover,
-        div#code_block-44-2249 button:hover,
-        div#code_block-45-2365 button:hover,
-        div#code_block-45-2367 button:hover {
-            background-color: #00abf4;
-            border: none;
-            border-radius: 5px;
-        }
+      
 
         /*Imatge slider apartaments*/
         @media screen and (max-width:1600px) and (min-width:770px) {
@@ -1437,9 +1075,7 @@ textarea {
     justify-content: center;
 }
 
-.call-us-area .call-us-bg {
-    /* background-position: center center; */
-}
+
 .call-us-area .call-us-bg {
     /* display:flex; */
     justify-content:center;
@@ -1456,7 +1092,7 @@ textarea {
     opacity: 0.5;
 }
 
-/* zona de precios */
+/* tarjetas de precios */
 
 body:not([id^="migrate"]) .row--layout-pricing-1a .column {
     padding: 32px;
@@ -1499,7 +1135,7 @@ body:not([id^="migrate"]) .row--layout-pricing-1a .column {
     flex-basis: 33.33%;
     max-width: 33.33%;
 }
-.widget:after {
+/* .widget:after {
     content: "";
     display: table;
     clear: both;
@@ -1514,7 +1150,7 @@ body:not([id^="migrate"]) .row--layout-pricing-1a .column {
 }
 .widget {
     position: relative;
-}
+} */
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1530,7 +1166,6 @@ div {
 justify-content: space-evenly;
 padding-top:0;
 gap: 20px;
-
 }
 
 ul li {
@@ -1538,9 +1173,10 @@ ul li {
 }
 
 #precios > * {
-    border: 2px solid #a0a0a080;
+    border: 1.5px solid #a0a0a080;
     padding: 3%;
    
+/* background-color:blanchedalmond; */
     
 }
 
@@ -1549,10 +1185,25 @@ ul li {
     justify-content: left;
 }
 .rich_text-99-6 {
-    color: #0d6efd;
+    color: #4c92fa;
     font-weight:700;
+    padding-bottom:40%;
 }
 #precios > * > * span {
     display:block;
     text-align: left !important;
+}
+
+#precios > *:hover {
+    box-shadow: 5px 10px 28px #88888848;
+border-color:#dce6f73f;
+background-color:#dce6f72c;
+    
+}
+
+.noches{
+    color:#6da5fa;
+    padding-top:3%;
+    padding-bottom:3%;
+
 }
