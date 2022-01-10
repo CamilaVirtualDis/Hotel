@@ -232,75 +232,12 @@ h1, h2, h3, h4, h5, h6 ,p {
             max-width: 1080px;
         }
 
-        /* menu hotels restaurants espanyol*/
-        li#menu-item-1902 a,
-        li#menu-item-1900 a,
-        li#menu-item-1899 a,
-        li#menu-item-1898 a,
-        li#menu-item-1901 {
-            margin-left: 100px;
-        }
+textarea #message{
+        resize: none!important;
+        /* background-color: blue; */
+}
 
-        li#menu-item-205 a,
-        li#menu-item-315 a,
-        li#menu-item-314 a,
-        li#menu-item-316 a {
-            padding-left: 135px !important;
-        }
 
-        li#menu-item-2390 a,
-        li#menu-item-2391 a {
-            padding-left: 95px !important;
-        }
-
-        li#menu-item-2394 a,
-        li#menu-item-2395 a {
-            margin-left: 70px;
-        }
-
-        li#menu-item-1902,
-        li#menu-item-205 {
-            background-image: url(/wp-content/uploads/2019/08/hotelmardamunt.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1900,
-        li#menu-item-315 {
-            background-image: url(/wp-content/uploads/2020/06/Porto-Cristo.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 5% 95%;
-        }
-
-        li#menu-item-1899,
-        li#menu-item-314 {
-            background-image: url(/wp-content/uploads/2019/08/hotelspacapdecreus.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-1898,
-        li#menu-item-316 {
-            background-image: url(/wp-content/uploads/2019/08/hotelagora.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        li#menu-item-2394,
-        li#menu-item-2390 {
-            background-image: url(/wp-content/uploads/2020/06/logo-monterrey-sencer.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 10% 90%;
-        }
-
-        li#menu-item-2395,
-        li#menu-item-2391 {
-            background-image: url(/wp-content/uploads/2020/06/Logo_la_timba-scaled.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
 
       
 
@@ -1440,15 +1377,16 @@ background-color:#dce6f72c;
 
 /* banner contactanos */
 .banner-loc{
+    
     padding-bottom: 59px;
     position:relative;
     margin-top: -60px;
     margin-bottom: 0px;
     margin-left: 20%;
     z-index:99;
-    background-color: #fff;
+    background-color: white;
     width:60%;
-    outline: 20px solid #fff; 
+    /* outline: 20px solid black;  */
     
 /* outline-offset: -1px; */
 }
@@ -1459,9 +1397,12 @@ background-color:#dce6f72c;
     align-items: center;
     justify-content:space-evenly;
     padding: 3.5% 7%; 
-    border-radius: 6px;
-    border: 1.5px solid #a0a0a080;
+    /* border-radius: 6px; */
+    
+    border: 2px solid #a0a0a080;
+    /* border: 1.5px solid #a0a0a080; */
    /* margin: 5%; */
+   outline: 20px;
     
 }
 .btn-one{
@@ -1476,4 +1417,7 @@ background-color:#dce6f72c;
 .btn-one:hover{
     
     background-color: #028fc7;
+}
+.banner h3{
+    /* color: white; */
 }
