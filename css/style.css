@@ -1220,14 +1220,31 @@ background-color:#dce6f72c;
     transition-delay: 0s;
 }
   
-  .footer-bottom-area {
-
+  
+  .footer-bottom-area,
+  .call-officers, .single-footer-widget .newsletter-form input[type=email],
+  .sociallinks-style-two li a i {
     background: #0e0e0e;
-    height: 40px;
-    color: #ffffff;
-    text-align:center;
-    padding-top: 7px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
   }
+  
+  .single-footer-widget .newsletter-form input[type=email],
+  .sociallinks-style-two li a i {
+    border-color: #0e0e0e;
+    color: #fff;
+  }
+  
+  .single-footer-widget .newsletter-form input[type="email"]:focus {
+    border: 1px solid #74BC1F;
+    background: #0e0e0e;
+    color: #fff;
+  }
+  
+  
+  
+  
 
   .sfsi_subscribe_Popinner {
 
