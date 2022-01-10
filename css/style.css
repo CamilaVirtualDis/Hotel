@@ -1220,9 +1220,7 @@ background-color:#dce6f72c;
     transition-delay: 0s;
 }
   
-  .footer-bottom-area,
-  .call-officers, .single-footer-widget .newsletter-form input[type=email],
-  .sociallinks-style-two li a i {
+  .footer-bottom-area {
 
     background: #0e0e0e;
     height: 40px;
