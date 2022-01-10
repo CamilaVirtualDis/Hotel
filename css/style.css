@@ -1045,7 +1045,7 @@ button {
     /* left:81%; */
 }
 
-.contact-info-form form .input-box input[type=text]:focus {
+/* .contact-info-form form .input-box input[type=text]:focus {
     border-color: #74BC1F;
 }
 
@@ -1055,7 +1055,7 @@ button {
 
 .contact-info-form form .input-box textarea:focus {
     border-color: #74BC1F;
-}
+} */
 
 .call-us-area {
     position: relative;
@@ -1097,9 +1097,9 @@ textarea {
 body:not([id^="migrate"]) .row--layout-pricing-1a .column {
     padding: 32px;
 }
-.row--layout-pricing-1a.row--style-light .column, #migrated-site .row--layout-pricing-1a.row--style-light .column {
+/* .row--layout-pricing-1a.row--style-light .column, #migrated-site .row--layout-pricing-1a.row--style-light .column {
     border-color: #f5e9dd;
-}
+} */
 .row--layout-pricing-1a .column, #migrated-site .row--layout-pricing-1a .column {
     -webkit-align-self: normal;
     -moz-align-self: normal;
@@ -1107,7 +1107,7 @@ body:not([id^="migrate"]) .row--layout-pricing-1a .column {
     -ms-flex-item-align: normal;
     -ms-flex-align: normal;
     align-self: normal;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-radius: 6px;
     box-shadow: 0 2px 0px rgb(0 0 0 / 2%);
     display: -webkit-box;
@@ -1135,22 +1135,7 @@ body:not([id^="migrate"]) .row--layout-pricing-1a .column {
     flex-basis: 33.33%;
     max-width: 33.33%;
 }
-/* .widget:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-.widget[data-name="content"]+[data-name="button"], .widget[data-name="content"]+[data-name="gallery"], .widget[data-name="content"]+[data-name="image"], .widget[data-name="content"]+[data-name="slideshow"], .widget[data-name="content"]+[data-name="map"], .widget[data-name="content"]+[data-name="contactform"], .widget[data-name="content"]+[data-name="signupform"], .widget[data-name="content"]+[data-name="tweet"], .widget[data-name="content"]+[data-name="dropbox"], .widget[data-name="contentgroup"]+[data-name="button"], .widget[data-name="contentgroup"]+[data-name="gallery"], .widget[data-name="contentgroup"]+[data-name="image"], .widget[data-name="contentgroup"]+[data-name="slideshow"], .widget[data-name="contentgroup"]+[data-name="map"], .widget[data-name="contentgroup"]+[data-name="contactform"], .widget[data-name="contentgroup"]+[data-name="signupform"], .widget[data-name="contentgroup"]+[data-name="tweet"], .widget[data-name="contentgroup"]+[data-name="dropbox"] {
-    margin-top: 20px;
-}
-
-.widget+.widget {
-    margin-top: 16px;
-}
-.widget {
-    position: relative;
-} */
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1160,9 +1145,8 @@ body:not([id^="migrate"]) .row--layout-pricing-1a .column {
 div {
     display: block;
 }
-#precios {
+.precios {
     display:flex;
-    /* background-color: blue; */
 justify-content: space-evenly;
 padding-top:0;
 gap: 20px;
@@ -1172,14 +1156,14 @@ ul li {
     list-style-type:none;
 }
 
-#precios > * {
+.precios > * {
     border: 1.5px solid #a0a0a080;
     padding: 3%;
     transition: box-shadow 0.6s;
     
 }
 
-#precios > * > *{
+.precios > * > *{
     display:flex;
     justify-content: left;
 }
@@ -1188,12 +1172,12 @@ ul li {
     font-weight:700;
     padding-bottom:40%;
 }
-#precios > * > * span {
+.precios > * > * span {
     display:block;
     text-align: left !important;
 }
 
-#precios > *:hover {
+.precios > *:hover {
     box-shadow: 5px 10px 28px #88888823;
 border-color:#dce6f72c;
 background-color:#dce6f72c;
@@ -1452,4 +1436,41 @@ background-color:#dce6f72c;
 
 .fondo-aviso-cookies.activo {
 	display: block;
+}
+
+/* banner contactanos */
+.banner-loc{
+    padding-bottom: 59px;
+    position:relative;
+    margin-top: -60px;
+    margin-bottom: 0px;
+    margin-left: 15%;
+    z-index:99;
+    background-color: #fff;
+    width:70%;
+}
+.banner{
+   
+ 
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 3.5%;
+   
+    
+}
+.btn-one{
+    padding: 18px 30px;
+    background-color: #00b6ff;
+    color: white !important;
+    text-transform: uppercase;
+    border: none;
+    font-weight:600;
+}
+
+.btn-one:hover{
+    
+    background-color: #028fc7;
 }
