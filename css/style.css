@@ -1400,7 +1400,7 @@ background-color:#dce6f72c;
     margin-top: -60px;
     margin-bottom: 0px;
     margin-left: 20%;
-    z-index:99;
+    z-index:9;
     background-color: white;
     width:60%;
     /* outline: 20px solid black;  */
@@ -1408,8 +1408,6 @@ background-color:#dce6f72c;
 /* outline-offset: -1px; */
 }
 .banner{
-   
- 
     display: flex;
     align-items: center;
     justify-content:space-evenly;
