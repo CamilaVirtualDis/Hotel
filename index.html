@@ -18,9 +18,7 @@
     <!--===========================
             HEADER
     ===============================-->
-    <header id="_header-2-164" class="oxy-header-wrapper oxy-sticky-header oxy-overlay-header oxy-header"
-        style="position: fixed;
-        z-index:99;">
+    <header id="_header-2-164" class="container-fluid"  style="position: fixed; z-index: 99;">
         <div class="info-contacto">
 
             <p>Contactar: 611 611 646</p>
@@ -29,6 +27,7 @@
                 Vaqués 49
                 - Port de la Selva</p>
         </div>
+<<<<<<< HEAD
         <div id="_header_row-3-164" class="oxy-header-row">
             <div class="oxy-header-container">
                 <h1>Apartament Cap de Vol</h1>
@@ -246,45 +245,18 @@
                 </div>
             </div>
         </div>
+=======
+        <div class="topnav" id="myTopnav">
+            <h1>Apartament Cap de Vol</h1>
+            <a></a>
+            <a href="#carouselExampleFade" class="active">Inici</a>
+            <a href="#section-15-6">Apartaments</a>
+            <a href="#contacto">Contacte</a>
+            <a href="#section-19-6">Preus</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+>>>>>>> 89e394eb57634a80af1066d613653cf58fffcb6c
     </header>
-    <script type="text/javascript">
-        jQuery(document).ready(function () {
-            var selector = "#_header-2-164",
-                scrollval = parseInt("50");
-            if (!scrollval || scrollval < 1) {
-                jQuery("body").css("margin-top", jQuery(selector).outerHeight());
-                jQuery(selector).addClass("oxy-sticky-header-active");
-            }
-            else {
-                var scrollTopOld = 0;
-                jQuery(window).scroll(function () {
-                    if (!jQuery('body').hasClass('oxy-nav-menu-prevent-overflow')) {
-                        if (jQuery(this).scrollTop() > scrollval
-                        ) {
-                            if (
-                                !jQuery(selector).hasClass("oxy-sticky-header-active")) {
-                                if (jQuery(selector).css('position') != 'absolute') {
-                                    jQuery("body").css("margin-top", jQuery(selector).outerHeight());
-                                }
-                                jQuery(selector)
-                                    .addClass("oxy-sticky-header-active")
-                                    .addClass("oxy-sticky-header-fade-in");
-                            }
-                        }
-                        else {
-                            jQuery(selector)
-                                .removeClass("oxy-sticky-header-fade-in")
-                                .removeClass("oxy-sticky-header-active");
-                            if (jQuery(selector).css('position') != 'absolute') {
-                                jQuery("body").css("margin-top", "");
-                            }
-                        }
-                        scrollTopOld = jQuery(this).scrollTop();
-                    }
-                })
-            }
-        });
-    </script>
     <!--====================================
              IMAGENES HEADER CARROUSEL
         ====================================-->
@@ -334,13 +306,13 @@
 
                 <div class="title float-left ">
 
-                    <h3>Desea más información o relaizar una reserva</h3>
+                    <h3>¿Voleu més informació o fer una reserva?</h3>
 
                 </div>
 
                 <div class="button float-right">
 
-                    <a class="btn-one" href="./index.html#contacto">Contáctenos<span
+                    <a class="btn-one" href="./index.html#contacto">Contacti'ns<span
                             class="icon-thin-right-arrow"></span></a>
 
                 </div>
