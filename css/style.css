@@ -1441,18 +1441,18 @@ background-color:#dce6f72c;
 /* =============================================================================================================
                                                nuevo header
     ============================================================================================================*/
-
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.733);
     overflow: hidden;
-    opacity: 80%;
-    /* display: flex;
+    padding: 20px;
+  /*   display: flex;
     justify-content: flex-end; */
+    
   }
   .topnav h1{
     float: left;
-    color: #000000;
+    color: #333333;
     text-align: center;
   }
   /* Style the links inside the navigation bar */
@@ -1464,13 +1464,12 @@ background-color:#dce6f72c;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    align-items: right;
+    font-weight: 500;
   }
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: #ffffff;
-    color: white;
+    
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -1532,14 +1531,22 @@ background-color:#dce6f72c;
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  /*tamaño responsive para ipad*/
+  @media screen and (max-width: 940px) {
+    .topnav h1{
+        float: left;
+        color: #333333;
+        text-align: center;
+        font-size: 35px;
+      }
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 730px) {
     .topnav h1{
         float: left;
-        color: #000000;
+        color: #333333;
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
       }
 
     .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -1573,12 +1580,21 @@ background-color:#dce6f72c;
     }
   }
  
+  @media screen and (max-width:475px) {
+    .topnav h1{
+        float: left;
+        color: #333333;
+        text-align: center;
+        font-size: 30px;
+      }
+      
+  }
   @media screen and (max-width:400px) {
     .topnav h1{
         float: left;
-        color: #000000;
+        color: #333333;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
       }
       
   }
