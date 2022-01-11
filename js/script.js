@@ -10,6 +10,17 @@ jQuery(document).on('click', 'a[href*="#"]', function (t) {
                         sfsi_plugin_version(2.51);
                     }
                 });
+
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
  /*--------------------------------------------------------------------------------------------------*/       
                 function sfsi_processfurther(ref) {
         
@@ -436,3 +447,4 @@ jQuery(document).on('click', 'a[href*="#"]', function (t) {
     });
 
 });              
+
