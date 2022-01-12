@@ -1446,8 +1446,7 @@ background-color:#dce6f72c;
     background-color: rgba(255, 255, 255, 0.733);
     overflow: hidden;
     padding: 20px;
- 
-    
+   
   }
   .topnav h1{
     float: left;
@@ -1543,6 +1542,16 @@ background-color:#dce6f72c;
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 730px) {
+      .info-contacto{
+          font-size: 14px;
+          font-weight: 100;
+      }
+    .topnav {
+        background-color: rgba(255, 255, 255, 0.733);
+        overflow: hidden;
+        padding: 0px;
+       
+      }
     .topnav h1{
         float: left;
         color: #333333;
