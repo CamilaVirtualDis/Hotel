@@ -601,11 +601,11 @@ a:hover {
 }
 
 .ct-link-text {
-    text-decoration: ;
+    text-decoration: none;
 }
 
 .ct-link {
-    text-decoration: ;
+    text-decoration: none;
 }
 
 .ct-link-button {

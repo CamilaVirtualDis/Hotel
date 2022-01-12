@@ -44,10 +44,7 @@ h1, h2, h3, h4, h5, h6 ,p {
             margin-bottom: 0 !important;
         }
 
-        .oxy-sticky-header-active .oxy-header-row {
-            padding-top: 15px !important;
-            padding-bottom: 15px !important;
-        }
+        
 
         .oxy-nav-menu-open .menu-item a {
             font-size: 18px !important;
@@ -1542,10 +1539,13 @@ background-color:#dce6f72c;
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 730px) {
+    .oxy-header-row{
+        align-items: left;
+    }
       .info-contacto{
           font-size: 9px;
-          font-weight: 100;
           flex-direction: column;
+          align-content:flex-start ;
       }
     .topnav {
         background-color: rgba(255, 255, 255, 0.733);
