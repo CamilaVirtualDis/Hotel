@@ -1446,14 +1446,14 @@ background-color:#dce6f72c;
     background-color: rgba(255, 255, 255, 0.733);
     overflow: hidden;
     padding: 20px;
-  /*   display: flex;
-    justify-content: flex-end; */
+ 
     
   }
   .topnav h1{
     float: left;
     color: #333333;
     text-align: center;
+
   }
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -1465,6 +1465,7 @@ background-color:#dce6f72c;
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
+    float: right;
   }
   
   /* Add an active class to highlight the current page */
@@ -1597,4 +1598,5 @@ background-color:#dce6f72c;
         font-size: 25px;
       }
       
+  }
   }
