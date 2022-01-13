@@ -176,10 +176,12 @@ template {
 } /* Oxygen */
 html {
   box-sizing: border-box;
+  overflow-x: hidden;  
 }
 body {
   font-size: 16px;
   color: rgba(64, 64, 64, 1);
+  overflow-x: hidden;  
 }
 body.oxygen-aos-enabled {
   overflow-x: hidden;

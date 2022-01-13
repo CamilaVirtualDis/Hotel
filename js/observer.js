@@ -1,31 +1,58 @@
 // fade-in de información
-window.onload="funcion";
+window.onload = "funcion";
 
-function funcion(){
-const clasesFadeIn = document.querySelectorAll(".fade-in");
+function funcion() {
 
-const options = {
+    const elementosFade = document.querySelector(".fade-in");
 
-threshold: 1,
-rootMargin: "0px 0px -100px 0px",
-};
 
-const aparece = new IntersectionObserver(
-    function (entries,aparece)
-    {
-    entries.forEach(entry => {
-        
-        if (!entry.isIntersecting){
-            return;
-        }else{
-            entry.target.classList.add("aparece");
-            alert("apareceeeee"); 
-        }
-    });
-},options);
+    const options = {
+        rootMargin: '0px',
+        threshold: 0,
+    };
 
-clasesFadeIn.forEach(fadeIn => {
-aparece.observe(fadeIn);
-} );
+    const observer = new IntersectionObserver(
+        function (
+            entries,
+            observer
+        ) {
+            entries.forEach( entry => {
+                console.log(entry.target);
+            });
+        },options);
+
+        observer.observe(elementosFade);
+
+
+
+
+
+
+    // const clasesFadeIn = document.querySelectorAll(".fade-in");
+
+    // const options = {
+    //     threshold: 0,
+    //     // rootMargin: "0px 0px -100px 0px",
+    // };
+
+    // const aparece = new IntersectionObserver(
+    //     function (
+    //         entries,
+    //         aparece
+    //     ) {
+    //         entries.forEach(entry => {
+    //             console.log("dentro de entries.forEach");
+    //             if (!entry.isIntersecting) {
+    //                 return;
+    //             } else {
+    //                 entry.target.classList.add("aparece");
+    //                 alert("apareceeeee");
+    //             }
+    //         });
+    //     }, options);
+
+    // clasesFadeIn.forEach(fadeIn => {
+    //     aparece.observe(fadeIn);
+    // });
 
 };
