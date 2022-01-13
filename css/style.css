@@ -1555,6 +1555,7 @@ background-color:#dce6f72c;
     background-color: #555;
     color: white;
   }
+
   
   /* Add a grey background to dropdown links on hover */
   .dropdown-content a:hover {
@@ -1566,6 +1567,13 @@ background-color:#dce6f72c;
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  
+  /* ===================RESPONSIVE===============*/
+
+
+
+  
   /*tamaño responsive para ipad*/
   @media screen and (max-width: 940px) {
     .topnav h1{
@@ -1607,10 +1615,14 @@ background-color:#dce6f72c;
       float: right;
       display: block;
     }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;     
+    }
   }
   .banner-loc h3{
-      float: none;
-      display: block;
+      float: none;  
       font-size: 18px;
   }
   .btn-one{
