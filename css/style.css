@@ -18,7 +18,7 @@ figure.wp-block-image img.lazyloading {
 }
 
 /* --------------------- CSS BASICO ------------------ */
-
+body{overflow-x: hidden;}
 
 h1, h2, h3, h4, h5, h6 ,p {
             font-family: 'heron', Arial, Helvetica, sans-serif;
@@ -1626,3 +1626,34 @@ background-color:#dce6f72c;
       
   }
   }
+
+  /* animación pagina */
+
+.fade-in{
+    /* opacity:0;  */
+}
+
+.aparece{
+    /* opacity:1; */
+    background-color:blue;
+}
+
+
+.from-right{
+transform: translateX(60%);
+} 
+.from-up{   
+transform: translateY(-50%);
+}
+.from-right, 
+.from-up{
+     transition: transform 400ms ease-in;
+}
+
+.from-right.aparece{
+    transform: translateX(0);
+}
+ 
+.from-up.aparece{
+    transform: translateY(0);
+}
