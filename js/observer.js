@@ -1,27 +1,30 @@
 // fade-in de información
-window.onload = "funcion";
 
-function funcion() {
-
-    const elementosFade = document.querySelector(".fade-in");
+const elementosFade = document.querySelectorAll(".fade-in");
 
 
-    const options = {
-        rootMargin: '0px',
-        threshold: 0,
-    };
+const options = {
+    rootMargin: '50px 0px -50px 0px',
+    threshold: 0.58,
+};
 
-    const observer = new IntersectionObserver(
-        function (
-            entries,
-            observer
-        ) {
-            entries.forEach( entry => {
-                console.log(entry.target);
-            });
-        },options);
+const observer = new IntersectionObserver(
+    function (
+        entries,
+        observer
+    ) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("aparece");
+            } else {
+                return;
+            }
+        });
+    }, options);
 
-        observer.observe(elementosFade);
+elementosFade.forEach(elemento => { 
+    observer.observe(elemento); 
+});
 
 
 
@@ -54,5 +57,3 @@ function funcion() {
     // clasesFadeIn.forEach(fadeIn => {
     //     aparece.observe(fadeIn);
     // });
-
-};

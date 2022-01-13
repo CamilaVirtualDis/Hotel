@@ -1682,30 +1682,36 @@ background-color:#dce6f72c;
 
 
 .fade-in{
+    opacity:0; 
+}
+.from-right{
     /* opacity:0;  */
 }
-
 .aparece{
-    /* opacity:1; */
-    background-color:blue;
+    /* background-color:blue; */
 }
 
 
 .from-right{
-transform: translateX(60%);
+transform: translateX(15%);
 } 
-.from-up{   
-transform: translateY(-50%);
-}
-.from-right, 
-.from-up{
-     transition: transform 400ms ease-in;
+.from-down{   
+transform: translateX(-5%);
 }
 
-.from-right.aparece{
+.from-right.aparece,.from-down.aparece{   
+    
+    transition: 
+    opacity 700ms ease-in,
+    transform 450ms ease-in;
     transform: translateX(0);
+    opacity: 1;
 }
  
-.from-up.aparece{
+/* .from-down.aparece{
+   
+    opacity:1;
+   
+    transition: transform 800ms ease-in;
     transform: translateY(0);
-}
+} */
