@@ -1684,13 +1684,6 @@ background-color:#dce6f72c;
 .fade-in{
     opacity:0; 
 }
-.from-right{
-    /* opacity:0;  */
-}
-.aparece{
-    /* background-color:blue; */
-}
-
 
 .from-right{
 transform: translateX(15%);
@@ -1708,10 +1701,44 @@ transform: translateX(-5%);
     opacity: 1;
 }
  
-/* .from-down.aparece{
-   
-    opacity:1;
-   
-    transition: transform 800ms ease-in;
-    transform: translateY(0);
-} */
+  /* sitios a visitar */
+
+  .info-tour {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+
+.header-img img {
+
+    max-height:300px;
+}
+
+.header-img img, .body-img {
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.header-img, .body-img {
+
+    flex-basis: 300px;
+}
+
+.info-tour{
+    margin: 20px 30px;
+}
+
+.header-ss{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.header-ss img, p{
+    min-width: 600px;
+    max-width:600px;
+}

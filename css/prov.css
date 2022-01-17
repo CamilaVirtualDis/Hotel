@@ -1,0 +1,26 @@
+.info-tour {
+    background-color: red;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.header-img img {
+
+    max-height: 150px;
+}
+
+.header-img img, .body-img {
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.header-img, .body-img {
+
+    flex-basis: 300px;
+}
+
+.info-tour{
+    margin: 20px;
+}
