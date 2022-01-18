@@ -18,7 +18,8 @@ figure.wp-block-image img.lazyloading {
 }
 
 /* --------------------- CSS BASICO ------------------ */
-body{overflow-x: hidden;}
+body{overflow-x: hidden;
+}
 
 h1, h2, h3, h4, h5, h6 ,p {
             font-family: 'heron', Arial, Helvetica, sans-serif;
@@ -1702,13 +1703,51 @@ transform: translateX(-5%);
 }
  
   /* sitios a visitar */
+  .header-ss
+  {
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+  }
+
+  #headerTuristico{
+display:flex;
+flex-direction: row; 
+background-color: #dce6f72c;
+justify-content: center;
+max-width: 100% !important;
+margin:5% 7%;
+  }
+  #headerTuristico p 
+{
+    font-family:heron,arial, sans-serif;
+    font-weight:bold;
+}
+#headerTuristico .tarjetas-ss{
+    border:hidden !important;
+}
+
+  .header-ss h2{
+    text-transform: uppercase;
+    padding: 75px 20px 0px;
+  }
+
+  .header-ss img{
+      width: 50%;
+  }
 
   .info-tour {
-    /* background-color: red; */
+ 
     display: flex;
     flex-direction: row wrap;
     justify-content: space-around;
-    /* gap: 20px; */
+ 
+}
+
+.tarjetas-ss{
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
 }
 
 .header-img img {
@@ -1719,26 +1758,53 @@ transform: translateX(-5%);
 .header-img img, .body-img {
     max-width: 400px;
     min-width: 400px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
 }
 
-.header-img, .body-img {
+.body-img p{
+    padding: 30px;
+} 
 
-    flex-basis: 300px;
-}
 
 .info-tour{
     margin: 20px 30px;
 }
 
-.header-ss{
+/* .header-ss{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     gap:30px;
-}
+} */
 
-.header-ss img, p{
-    min-width: 600px;
-    max-width:600px;
-}
+  @media screen and (max-width:900px) {
+    .info-tour{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .tarjetas-ss{
+        flex-grow: 0.5; 
+    }
+    .break{
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+
+    #headerTuristico{
+        display:flex;
+        flex-direction: column; 
+        background-color: #dce6f72c;
+        justify-content: center;
+        max-width: 100% !important;
+        margin:10px 0 20px 0;
+        padding: 20px;
+          }
+          #headerTuristico img{
+              width: 80%;
+          }
+
+  }
